@@ -1,7 +1,7 @@
 ***essentials
 __import pandas as pd___
 
-pd.DataFrame(dataset or Dictionary) => create dataframe as table
+- pd.DataFrame(dataset or Dictionary) => create dataframe as table
 
 pd.Series(dictionary) => create series as table
 
