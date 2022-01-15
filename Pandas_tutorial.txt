@@ -49,3 +49,16 @@ df.duplicated()   =>  if duplicated => True else => False beside index of row
 df.drop_duplicates()   =>  remove duplicated rows
 
 df.replace(x,y,inplace=True)   =>  replace x with y in all data
+
+########## pandas_plotting
+import matplotlib.pyplot as plt
+
+df.plot()   =>  plot data
+plt.show()   =>   show graph in lines
+
+df.plot(kind='scatter',x="column",y="column")   =>   scatter graph for column x and y
+df["column"].plot(king='hist')   =>  histogram graph for column 
+
+########## data_correlation
+
+df.corr()   =>  table of correlations bertween columns  from 1 to -1 , best is 1:0.6 or -1:-0.6
