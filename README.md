@@ -1,4 +1,4 @@
-**essentials**
+##essentials
 __import pandas as pd___
 
 pd.DataFrame(dataset or Dictionary) => create dataframe as table
@@ -8,7 +8,7 @@ pd.Series(dictionary) => create series as table
 [] => series
 [[]] => DataFrame 
 
-pd.loc[index as 3] => row number 3
+pd.loc[index as 3] ##### row number 3
 
 data=pd.read_csv('filename') => read csv file
 pd.read_json('name.json') =>  read json file
